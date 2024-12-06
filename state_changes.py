@@ -1,4 +1,7 @@
 import json
+import os
+import platform
+from pathlib import Path
 
 save_file = input('save file?')
 
@@ -37,6 +40,18 @@ def compareSaves(save_file):
     changed_items = changed_item_status - default_item_status
 
     return changed_items
+
+def get_save_file_path():
+    system = platform.system
+    if system == "Windows":
+        save_path = Path(os.getenv('LOCALAPPDATA')) / "adventuresofdreamland" / "saves"
+    elif system == "Darwin":
+        save_path = Path.home() / "Library" / "Application Support" / "adventuresofdreamland" / "saves
+    else:
+        save_path = Path.home() / ".local" / "share" / "adventuresofdreamland" / "saves"
+    save_path.mkdir(parents=True, exist_ok=True)
+    return save_path
+
 
 changed_items = compareSaves(save_file)
 
