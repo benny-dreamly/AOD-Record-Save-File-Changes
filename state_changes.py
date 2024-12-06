@@ -1,6 +1,6 @@
 import json
 
-with open('default_state.json') as raw_default_state:
+with open('default_save.json') as raw_default_state:
     default_state = json.load(raw_default_state)
 
 default_state_objects = default_state['game_objects']
