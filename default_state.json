@@ -1,0 +1,520 @@
+{
+    "current_location": 1,
+    "game_objects": [
+        {
+            "name": "puzzle piece 1",
+            "location": 1,
+            "movable": true,
+            "visible": true,
+            "carried": false,
+            "description": "puzzle piece 1",
+            "glueable": false
+        },
+        {
+            "name": "puzzle piece 2",
+            "location": 10,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "puzzle piece 2",
+            "glueable": false
+        },
+        {
+            "name": "hint 1",
+            "location": 1,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "hint #1",
+            "glueable": false
+        },
+        {
+            "name": "hint",
+            "location": 11,
+            "movable": true,
+            "visible": true,
+            "carried": false,
+            "description": "huh",
+            "glueable": false
+        },
+        {
+            "name": "clue 1",
+            "location": 2,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "clue #1",
+            "glueable": false
+        },
+        {
+            "name": "clue 1-2",
+            "location": 1,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "clue #1.5",
+            "glueable": false
+        },
+        {
+            "name": "clue 2",
+            "location": 3,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "clue #2 (ONLY READ ONCE HINT 1 IS SOLVED)",
+            "glueable": false
+        },
+        {
+            "name": "puzzle",
+            "location": 3,
+            "movable": true,
+            "visible": true,
+            "carried": false,
+            "description": "puzzle",
+            "glueable": false
+        },
+        {
+            "name": "puzzle (1/4)",
+            "location": {
+                "name": "puzzle",
+                "location": 3,
+                "movable": true,
+                "visible": true,
+                "carried": false,
+                "description": "puzzle",
+                "glueable": false
+            },
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "puzzle",
+            "glueable": false
+        },
+        {
+            "name": "puzzle (2/4)",
+            "location": {
+                "name": "puzzle (1/4)",
+                "location": {
+                    "name": "puzzle",
+                    "location": 3,
+                    "movable": true,
+                    "visible": true,
+                    "carried": false,
+                    "description": "puzzle",
+                    "glueable": false
+                },
+                "movable": true,
+                "visible": false,
+                "carried": false,
+                "description": "puzzle",
+                "glueable": false
+            },
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "puzzle",
+            "glueable": false
+        },
+        {
+            "name": "key",
+            "location": {
+                "name": "puzzle (4/4)",
+                "location": {
+                    "name": "puzzle (3/4)",
+                    "location": {
+                        "name": "puzzle (2/4)",
+                        "location": {
+                            "name": "puzzle (1/4)",
+                            "location": {
+                                "name": "puzzle",
+                                "location": 3,
+                                "movable": true,
+                                "visible": true,
+                                "carried": false,
+                                "description": "puzzle",
+                                "glueable": false
+                            },
+                            "movable": true,
+                            "visible": false,
+                            "carried": false,
+                            "description": "puzzle",
+                            "glueable": false
+                        },
+                        "movable": true,
+                        "visible": false,
+                        "carried": false,
+                        "description": "puzzle",
+                        "glueable": false
+                    },
+                    "movable": true,
+                    "visible": false,
+                    "carried": false,
+                    "description": "puzzle (3/4)",
+                    "glueable": false
+                },
+                "movable": true,
+                "visible": false,
+                "carried": false,
+                "description": "a finished puzzle, what does it do?",
+                "glueable": false
+            },
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a golden key",
+            "glueable": false
+        },
+        {
+            "name": "scroll",
+            "location": 1,
+            "movable": true,
+            "visible": true,
+            "carried": false,
+            "description": "an ancient papyrus scroll",
+            "glueable": false
+        },
+        {
+            "name": "safe",
+            "location": 10,
+            "movable": false,
+            "visible": true,
+            "carried": false,
+            "description": "a small safe",
+            "glueable": false
+        },
+        {
+            "name": "gold bar",
+            "location": 11,
+            "movable": true,
+            "visible": true,
+            "carried": false,
+            "description": "a gold bar with an engraving in it",
+            "glueable": false
+        },
+        {
+            "name": "clue",
+            "location": 11,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "clue",
+            "glueable": false
+        },
+        {
+            "name": "hint A",
+            "location": 4,
+            "movable": true,
+            "visible": true,
+            "carried": false,
+            "description": "a small piece of ripped paper, it looks like it has some writing on it.",
+            "glueable": true
+        },
+        {
+            "name": "hint B",
+            "location": 5,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a small piece of ripped paper, it looks like it has some writing on it.",
+            "glueable": true
+        },
+        {
+            "name": "hint C",
+            "location": 6,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a small piece of ripped paper, it looks like it has some writing on it.",
+            "glueable": true
+        },
+        {
+            "name": "hint D",
+            "location": 7,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a small piece of ripped paper, it looks like it has some writing on it.",
+            "glueable": true
+        },
+        {
+            "name": "hint E",
+            "location": 12,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a small piece of ripped paper, it looks like it has some writing on it.",
+            "glueable": true
+        },
+        {
+            "name": "hint F",
+            "location": 13,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a small piece of ripped paper, it looks like it has some writing on it.",
+            "glueable": true
+        },
+        {
+            "name": "hint G",
+            "location": 14,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a small piece of ripped paper, it looks like it has some writing on it.",
+            "glueable": true
+        },
+        {
+            "name": "hint H",
+            "location": 15,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a small piece of ripped paper, it looks like it has some writing on it.",
+            "glueable": true
+        },
+        {
+            "name": "hint I",
+            "location": 16,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a small piece of ripped paper, it looks like it has some writing on it.",
+            "glueable": true
+        },
+        {
+            "name": "hint J",
+            "location": 17,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a small piece of ripped paper, it looks like it has some writing on it.",
+            "glueable": true
+        },
+        {
+            "name": "hint K",
+            "location": 18,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a small piece of ripped paper, it looks like it has some writing on it.",
+            "glueable": true
+        },
+        {
+            "name": "hint L",
+            "location": 19,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a small piece of ripped paper, it looks like it has some writing on it.",
+            "glueable": true
+        },
+        {
+            "name": "hint M",
+            "location": 20,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a small piece of ripped paper, it looks like it has some writing on it.",
+            "glueable": true
+        },
+        {
+            "name": "cluee",
+            "location": 20,
+            "movable": true,
+            "visible": true,
+            "carried": false,
+            "description": "more ripped looking paper...",
+            "glueable": false
+        },
+        {
+            "name": "puzzle piece 3",
+            "location": 17,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "another puzzle piece woo",
+            "glueable": false
+        },
+        {
+            "name": "puzzle (3/4)",
+            "location": {
+                "name": "puzzle (2/4)",
+                "location": {
+                    "name": "puzzle (1/4)",
+                    "location": {
+                        "name": "puzzle",
+                        "location": 3,
+                        "movable": true,
+                        "visible": true,
+                        "carried": false,
+                        "description": "puzzle",
+                        "glueable": false
+                    },
+                    "movable": true,
+                    "visible": false,
+                    "carried": false,
+                    "description": "puzzle",
+                    "glueable": false
+                },
+                "movable": true,
+                "visible": false,
+                "carried": false,
+                "description": "puzzle",
+                "glueable": false
+            },
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "puzzle (3/4)",
+            "glueable": false
+        },
+        {
+            "name": "glue stick",
+            "location": 21,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a glue stick",
+            "glueable": false
+        },
+        {
+            "name": "hint 3",
+            "location": null,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "hint 3",
+            "glueable": false
+        },
+        {
+            "name": "door",
+            "location": 20,
+            "movable": false,
+            "visible": true,
+            "carried": false,
+            "description": "a large door...",
+            "glueable": false
+        },
+        {
+            "name": "puzzle (4/4)",
+            "location": {
+                "name": "puzzle (3/4)",
+                "location": {
+                    "name": "puzzle (2/4)",
+                    "location": {
+                        "name": "puzzle (1/4)",
+                        "location": {
+                            "name": "puzzle",
+                            "location": 3,
+                            "movable": true,
+                            "visible": true,
+                            "carried": false,
+                            "description": "puzzle",
+                            "glueable": false
+                        },
+                        "movable": true,
+                        "visible": false,
+                        "carried": false,
+                        "description": "puzzle",
+                        "glueable": false
+                    },
+                    "movable": true,
+                    "visible": false,
+                    "carried": false,
+                    "description": "puzzle",
+                    "glueable": false
+                },
+                "movable": true,
+                "visible": false,
+                "carried": false,
+                "description": "puzzle (3/4)",
+                "glueable": false
+            },
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a finished puzzle, what does it do?",
+            "glueable": false
+        },
+        {
+            "name": "magnifying glass",
+            "location": 20,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a magnifying glass",
+            "glueable": false
+        },
+        {
+            "name": "broom",
+            "location": 22,
+            "movable": true,
+            "visible": true,
+            "carried": false,
+            "description": "a broom",
+            "glueable": false
+        },
+        {
+            "name": "bucket",
+            "location": 22,
+            "movable": true,
+            "visible": true,
+            "carried": false,
+            "description": "an empty bucket",
+            "glueable": false
+        },
+        {
+            "name": "water bucket",
+            "location": {
+                "name": "bucket",
+                "location": 22,
+                "movable": true,
+                "visible": true,
+                "carried": false,
+                "description": "an empty bucket",
+                "glueable": false
+            },
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "a bucket filled with water",
+            "glueable": false
+        },
+        {
+            "name": "trapdoor",
+            "location": 17,
+            "movable": false,
+            "visible": false,
+            "carried": false,
+            "description": "a trapdoor",
+            "glueable": false
+        },
+        {
+            "name": "lighter",
+            "location": 22,
+            "movable": true,
+            "visible": true,
+            "carried": false,
+            "description": "a lighter, maybe you could light a fire with this?",
+            "glueable": false
+        },
+        {
+            "name": "water",
+            "location": 22,
+            "movable": false,
+            "visible": true,
+            "carried": false,
+            "description": "water",
+            "glueable": false
+        },
+        {
+            "name": "puzzle piece 4",
+            "location": 22,
+            "movable": true,
+            "visible": false,
+            "carried": false,
+            "description": "another puzzle piece...",
+            "glueable": false
+        }
+    ]
+}
