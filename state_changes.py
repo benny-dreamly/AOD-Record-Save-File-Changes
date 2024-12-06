@@ -13,7 +13,7 @@ default_status = [
 
 default_item_status = set(default_status)
 
-print("\n", "default status\n\n", default_item_status, "\n")
+# print("\n", "default status\n\n", default_item_status, "\n")
 
 with open('Scroll.json') as raw_changed_state:
     changed_state = json.load(raw_changed_state)
@@ -28,7 +28,7 @@ changed_status = [
 
 changed_item_status = set(changed_status)
 
-print('changed status\n\n', changed_item_status, '\n')
+# print('changed status\n\n', changed_item_status, '\n')
 
 changed_items = changed_item_status - default_item_status
 
