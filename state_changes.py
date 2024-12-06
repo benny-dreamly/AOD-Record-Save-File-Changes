@@ -3,7 +3,7 @@ import os
 import platform
 from pathlib import Path
 
-save_file = input('save file?')
+save_file = 'randomizer_save_game.json'
 
 with open('default_save.json') as raw_default_state:
     default_state = json.load(raw_default_state)
@@ -22,7 +22,8 @@ default_item_status = set(default_status)
 
 def compareSaves(save_file):
 
-    with open(save_file) as raw_changed_state:
+    save_file_path = get_save_file_path() / save_file
+    with open(save_file_path) as raw_changed_state:
         changed_state = json.load(raw_changed_state)
 
     changed_objects = changed_state['game_objects']
