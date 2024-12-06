@@ -28,7 +28,7 @@ changed_status = [
 
 changed_item_status = set(changed_status)
 
-print('changed status\n\n', changed_item_status)
+print('changed status\n\n', changed_item_status, '\n')
 
 changed_items = changed_item_status - default_item_status
 
