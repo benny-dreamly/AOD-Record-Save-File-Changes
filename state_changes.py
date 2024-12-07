@@ -38,9 +38,9 @@ def compareSaves(save_file):
 
     # print('changed status\n\n', changed_item_status, '\n')
 
-    changed_items = changed_item_status - default_item_status
+    difference = changed_item_status - default_item_status
 
-    return changed_items
+    return difference
 
 def get_save_file_path():
     system = platform.system
