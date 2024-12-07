@@ -20,7 +20,7 @@ default_item_status = set(default_status)
 
 # print("\n", "default status\n\n", default_item_status, "\n")
 
-def compareSaves(save_file):
+def compare_saves(save_file):
 
     save_file_path = get_save_file_path() / save_file
     with open(save_file_path) as raw_changed_state:
@@ -52,6 +52,6 @@ def get_save_file_path():
     return save_path
 
 
-changed_items = compareSaves(save_file)
+changed_items = compare_saves(save_file)
 
 print(changed_items)
