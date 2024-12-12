@@ -1,5 +1,10 @@
 {
     "current_location": 1,
+    "door_open": false,
+    "safe_open": false,
+    "trapdoor_open": false,
+    "fire_lit": false,
+    "fire_extinguished": false,
     "game_objects": [
         {
             "name": "puzzle piece 1",
