@@ -9,6 +9,13 @@ with open('default_save.json') as raw_default_state:
     default_state = json.load(raw_default_state)
 
 default_state_objects = default_state['game_objects']
+default_state_conditions = (default_state['door_open'],
+                            default_state['safe_open'],
+                            default_state['trapdoor_open'],
+                            default_state['fire_lit'],
+                            default_state['fire_extinguished'])
+
+print(default_state_conditions)
 
 default_status = [
     (dic['name'], dic['carried'])
@@ -52,6 +59,7 @@ def get_save_file_path():
         save_path = Path.home() / ".local" / "share" / "adventuresofdreamland" / "saves"
     save_path.mkdir(parents=True, exist_ok=True)
     return save_path
+
 
 
 changed_items = compare_saves(save_file)
