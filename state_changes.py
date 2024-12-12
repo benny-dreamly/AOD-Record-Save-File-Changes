@@ -43,9 +43,11 @@ def compare_saves(save_file):
     return difference
 
 def get_save_file_path():
-    system = platform.system
+    system = platform.system()
     if system == "Windows":
         save_path = Path(os.getenv('LOCALAPPDATA')) / "adventuresofdreamland" / "saves"
+    elif system == "Darwin":
+        save_path = Path.home() / "Library" / "Application Support" / "adventuresofdreamland" / "saves"
     else:
         save_path = Path.home() / ".local" / "share" / "adventuresofdreamland" / "saves"
     save_path.mkdir(parents=True, exist_ok=True)
