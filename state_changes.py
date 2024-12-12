@@ -27,13 +27,18 @@ default_item_status = set(default_status)
 
 # print("\n", "default status\n\n", default_item_status, "\n")
 
-def compare_saves(save_file):
+def compare_saves(save):
 
-    save_file_path = get_save_file_path() / save_file
+    save_file_path = get_save_file_path() / save
     with open(save_file_path) as raw_changed_state:
         changed_state = json.load(raw_changed_state)
 
     changed_objects = changed_state['game_objects']
+    changed_conditions = (changed_state['door_open'],
+                            changed_state['safe_open'],
+                            changed_state['trapdoor_open'],
+                            changed_state['fire_lit'],
+                            changed_state['fire_extinguished'])
 
     changed_status = [
         (dic['name'], dic['carried'])
