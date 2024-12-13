@@ -3,6 +3,8 @@ import os
 import platform
 from pathlib import Path
 
+import psutil
+
 save_file = 'randomizer_save_game.json'
 
 with open('default_save.json') as raw_default_state:
@@ -84,3 +86,18 @@ if changed_condition_state is not None:
     print(changed_condition_state)
 else:
     pass
+
+def running(program):
+    for pid in psutil.pids():
+        try:
+            p = psutil.Process(pid)
+            if program in p.name():
+                return True
+            else:
+                pass
+        except:
+            continue
+
+
+if running('adventures-of-dreamland.exe'):
+    print("AOD running!")
