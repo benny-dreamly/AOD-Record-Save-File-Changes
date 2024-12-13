@@ -1,0 +1,210 @@
+{('scroll', True)}
+{('scroll', True)}
+{('scroll', True)}
+{('scroll', True)}
+{('scroll', True)}
+{('scroll', True)}
+{('scroll', True)}
+{('scroll', True)}
+{('scroll', True)}
+{('scroll', True)}
+{('scroll', True)}
+{('puzzle piece 1', True)}
+{('puzzle piece 1', True)}
+{('scroll', True), ('puzzle piece 1', True)}
+{('scroll', True), ('puzzle piece 1', True)}
+{('scroll', True), ('puzzle', True), ('puzzle piece 1', True)}
+{('scroll', True), ('puzzle', True), ('hint 1', True), ('puzzle piece 1', True)}
+{('scroll', True), ('puzzle', True), ('hint 1', True), ('puzzle piece 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('puzzle', True), ('scroll', True), ('clue 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('puzzle', True), ('scroll', True), ('clue 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('puzzle', True), ('scroll', True), ('clue 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('puzzle', True), ('scroll', True), ('clue 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('puzzle', True), ('clue 1-2', True), ('scroll', True), ('clue 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('clue 2', True), ('puzzle', True), ('clue 1-2', True), ('scroll', True), ('clue 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('clue 2', True), ('puzzle', True), ('clue 1-2', True), ('scroll', True), ('clue 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('clue 2', True), ('puzzle', True), ('clue 1-2', True), ('scroll', True), ('clue 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('clue 2', True), ('puzzle', True), ('clue 1-2', True), ('scroll', True), ('clue 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('clue 2', True), ('puzzle', True), ('clue 1-2', True), ('scroll', True), ('clue 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('clue 2', True), ('puzzle', True), ('clue 1-2', True), ('scroll', True), ('clue 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('clue 2', True), ('puzzle', True), ('clue 1-2', True), ('scroll', True), ('clue 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('clue 2', True), ('puzzle', True), ('clue 1-2', True), ('scroll', True), ('clue 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('clue 2', True), ('puzzle', True), ('clue 1-2', True), ('scroll', True), ('clue 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('clue 2', True), ('puzzle', True), ('clue 1-2', True), ('scroll', True), ('clue 1', True)}
+{('hint 1', True), ('puzzle piece 1', True), ('clue 2', True), ('puzzle', True), ('clue 1-2', True), ('scroll', True), ('clue 1', True)}
+{('puzzle (1/4)', True), ('scroll', True), ('hint A', True)}
+{('puzzle (1/4)', True), ('scroll', True), ('hint A', True)}
+{('puzzle (1/4)', True), ('scroll', True), ('hint A', True)}
+{('hint B', True), ('scroll', True), ('puzzle (1/4)', True), ('hint A', True)}
+{('hint B', True), ('hint A', True), ('puzzle (1/4)', True), ('hint C', True), ('scroll', True)}
+{('hint B', True), ('hint A', True), ('puzzle (1/4)', True), ('hint C', True), ('scroll', True)}
+{('hint B', True), ('hint A', True), ('puzzle (1/4)', True), ('hint C', True), ('scroll', True), ('hint D', True)}
+{('hint B', True), ('hint A', True), ('puzzle (1/4)', True), ('hint C', True), ('scroll', True), ('hint D', True)}
+{('hint B', True), ('hint A', True), ('puzzle (1/4)', True), ('hint C', True), ('scroll', True), ('hint E', True), ('hint D', True)}
+{('hint B', True), ('hint A', True), ('puzzle (1/4)', True), ('hint D', True), ('hint C', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint B', True), ('hint A', True), ('puzzle (1/4)', True), ('hint D', True), ('hint C', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint B', True), ('hint A', True), ('puzzle (1/4)', True), ('hint G', True), ('hint D', True), ('hint C', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint B', True), ('hint A', True), ('puzzle (1/4)', True), ('hint G', True), ('hint H', True), ('hint D', True), ('hint C', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint B', True), ('hint A', True), ('puzzle (1/4)', True), ('hint G', True), ('hint H', True), ('hint D', True), ('hint I', True), ('hint C', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint B', True), ('hint J', True), ('hint A', True), ('puzzle (1/4)', True), ('hint G', True), ('hint H', True), ('hint D', True), ('hint I', True), ('hint C', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint B', True), ('hint J', True), ('hint A', True), ('puzzle (1/4)', True), ('hint G', True), ('hint H', True), ('hint D', True), ('hint I', True), ('hint C', True), ('hint K', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint B', True), ('hint J', True), ('hint A', True), ('puzzle (1/4)', True), ('hint L', True), ('hint G', True), ('hint D', True), ('hint H', True), ('hint I', True), ('hint C', True), ('hint K', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint B', True), ('hint J', True), ('hint A', True), ('puzzle (1/4)', True), ('hint L', True), ('hint G', True), ('hint D', True), ('hint H', True), ('hint I', True), ('hint C', True), ('hint K', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint B', True), ('hint J', True), ('hint A', True), ('puzzle (1/4)', True), ('hint L', True), ('hint G', True), ('hint D', True), ('hint H', True), ('hint I', True), ('hint C', True), ('hint K', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint B', True), ('hint J', True), ('hint A', True), ('puzzle (1/4)', True), ('hint L', True), ('hint G', True), ('hint D', True), ('hint H', True), ('hint I', True), ('hint M', True), ('hint C', True), ('hint K', True), ('cluee', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint B', True), ('hint J', True), ('hint A', True), ('puzzle (1/4)', True), ('hint L', True), ('hint G', True), ('hint D', True), ('hint H', True), ('hint I', True), ('hint M', True), ('hint C', True), ('hint K', True), ('cluee', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint B', True), ('hint J', True), ('hint A', True), ('puzzle (1/4)', True), ('hint L', True), ('hint G', True), ('hint D', True), ('hint H', True), ('glue stick', True), ('hint I', True), ('hint M', True), ('hint C', True), ('hint K', True), ('cluee', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint B', True), ('hint J', True), ('hint A', True), ('puzzle (1/4)', True), ('hint L', True), ('hint G', True), ('hint D', True), ('hint H', True), ('glue stick', True), ('hint I', True), ('hint M', True), ('hint C', True), ('hint K', True), ('cluee', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint B', True), ('hint J', True), ('hint A', True), ('puzzle (1/4)', True), ('hint L', True), ('hint G', True), ('hint D', True), ('hint H', True), ('glue stick', True), ('hint I', True), ('hint M', True), ('hint C', True), ('hint K', True), ('cluee', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint B', True), ('hint J', True), ('hint A', True), ('puzzle (1/4)', True), ('hint L', True), ('hint G', True), ('hint D', True), ('hint H', True), ('glue stick', True), ('hint I', True), ('hint M', True), ('hint C', True), ('hint K', True), ('cluee', True), ('scroll', True), ('hint E', True), ('hint F', True)}
+{('hint 3', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('scroll', True)}
+{('hint 3', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('scroll', True)}
+{('hint 3', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('scroll', True)}
+{('hint 3', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('scroll', True)}
+{('hint 3', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('scroll', True)}
+{('hint 3', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('scroll', True)}
+{('hint 3', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('scroll', True)}
+{('hint 3', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('hint 3', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('hint 3', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('bucket', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('hint 3', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('bucket', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('hint 3', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('bucket', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('hint 3', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('bucket', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('hint 3', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('bucket', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('hint 3', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('bucket', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('hint 3', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('bucket', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('hint 3', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('bucket', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('cluee', True), ('lighter', True), ('scroll', True), ('broom', True)}
+{('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle piece 3', True), ('hint 3', True), ('water bucket', True), ('magnifying glass', True), ('puzzle (1/4)', True), ('puzzle piece 2', True), ('glue stick', True), ('gold bar', True), ('hint', True), ('lighter', True), ('clue', True), ('cluee', True), ('scroll', True), ('broom', True)}
+{('safe_open', True), ('trapdoor_open', True)}
+{('puzzle (3/4)', True), ('water bucket', True)}
+{('safe_open', True), ('fire_lit', True), ('trapdoor_open', True)}
+{('puzzle (3/4)', True), ('water bucket', True)}
+{('safe_open', True), ('fire_lit', True), ('trapdoor_open', True)}
+{('puzzle (3/4)', True), ('water bucket', True)}
+{('safe_open', True), ('fire_lit', True), ('trapdoor_open', True)}
+{('puzzle (3/4)', True), ('water bucket', True)}
+{('safe_open', True), ('fire_lit', True), ('trapdoor_open', True)}
+{('puzzle (3/4)', True), ('water bucket', True)}
+{('safe_open', True), ('fire_lit', True), ('trapdoor_open', True)}
+{('puzzle (3/4)', True), ('water bucket', True)}
+{('safe_open', True), ('fire_lit', True), ('trapdoor_open', True)}
+{('puzzle (3/4)', True), ('water bucket', True)}
+{('safe_open', True), ('fire_lit', True), ('trapdoor_open', True)}
+{('puzzle piece 4', True), ('bucket', True), ('puzzle (3/4)', True)}
+{('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('puzzle piece 4', True), ('bucket', True), ('puzzle (3/4)', True)}
+{('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('puzzle piece 4', True), ('bucket', True), ('puzzle (3/4)', True)}
+{('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('puzzle piece 4', True), ('bucket', True), ('puzzle (3/4)', True)}
+{('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('puzzle piece 4', True), ('bucket', True), ('puzzle (3/4)', True)}
+{('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('puzzle piece 4', True), ('bucket', True), ('puzzle (3/4)', True)}
+{('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('puzzle piece 4', True), ('bucket', True), ('puzzle (3/4)', True)}
+{('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('puzzle piece 4', True), ('bucket', True), ('puzzle (3/4)', True)}
+{('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('puzzle piece 4', True), ('bucket', True), ('puzzle (3/4)', True)}
+{('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('key', True)}
+{('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('key', True)}
+{('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('key', True)}
+{('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('key', True)}
+{('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('key', True)}
+{('door_open', True), ('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('key', True)}
+{('door_open', True), ('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('key', True)}
+{('door_open', True), ('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('key', True)}
+{('door_open', True), ('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('key', True)}
+{('door_open', True), ('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('key', True)}
+{('door_open', True), ('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('key', True)}
+{('door_open', True), ('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
+{('key', True)}
+{('door_open', True), ('safe_open', True), ('fire_extinguished', True), ('trapdoor_open', True)}
