@@ -1,6 +1,7 @@
 import json
 import os
 import platform
+import time
 from pathlib import Path
 
 import psutil
@@ -93,11 +94,17 @@ def running(program):
             p = psutil.Process(pid)
             if program in p.name():
                 return True
-            else:
-                pass
-        except:
+        except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
             continue
+    return False
 
 
-if running('adventures-of-dreamland.exe'):
-    print("AOD running!")
+while running('adventures-of-dreamland.exe'):
+    changed_items = compare_items(save_file)
+    changed_condition_state = compare_conditions(save_file)
+    print(changed_items)
+    if changed_condition_state is not None:
+        print(changed_condition_state)
+    else:
+        pass
+    time.sleep(2)
