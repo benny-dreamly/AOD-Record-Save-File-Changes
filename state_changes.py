@@ -52,13 +52,11 @@ def compare_items(save):
 
     return difference
 
-
 def open_save(save):
     save_file_path = get_save_file_path() / save
     with open(save_file_path) as raw_changed_state:
         changed_state = json.load(raw_changed_state)
     return changed_state
-
 
 def get_save_file_path():
     system = platform.system()
@@ -86,7 +84,6 @@ def compare_conditions(save):
     condition_difference = changed_conditions - default_conditions
 
     return condition_difference if condition_difference else None
-
 
 changed_items = compare_items(save_file)
 changed_condition_state = compare_conditions(save_file)
