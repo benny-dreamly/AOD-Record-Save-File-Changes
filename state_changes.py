@@ -25,8 +25,6 @@ default_status = [
 
 default_item_status = set(default_status)
 
-# print("\n", "default status\n\n", default_item_status, "\n")
-
 def compare_items(save):
 
     changed_state = open_save(save)
