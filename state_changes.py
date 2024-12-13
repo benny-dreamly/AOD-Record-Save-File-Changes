@@ -32,11 +32,6 @@ def compare_items(save):
     changed_state = open_save(save)
 
     changed_objects = changed_state['game_objects']
-    changed_conditions = (changed_state['door_open'],
-                            changed_state['safe_open'],
-                            changed_state['trapdoor_open'],
-                            changed_state['fire_lit'],
-                            changed_state['fire_extinguished'])
 
     changed_status = [
         (dic['name'], dic['carried'])
@@ -45,8 +40,6 @@ def compare_items(save):
     ]
 
     changed_item_status = set(changed_status)
-
-    # print('changed status\n\n', changed_item_status, '\n')
 
     difference = changed_item_status - default_item_status
 
